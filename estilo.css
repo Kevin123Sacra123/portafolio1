@@ -110,7 +110,8 @@ h2{
     padding-right: 50%;
 }
 .conjunto-conocimiento div:hover{
-    animation:rotate-horizontal-center 0.5s;
+    box-shadow: 0 0 100px rgb(255, 255, 255);
+    /* animation:rotate-horizontal-center 0.5s; */
 }
 .conocimiento {
     align-items: center;
@@ -202,11 +203,17 @@ h2{
     border-color: white;
     border-style: solid;
     text-decoration: none;
-    box-shadow: 0 0 100px rgb(255, 255, 255);
+    box-shadow: 0 0 100px #ffffff;
 }
 
-.descargar a:hover{
-    transform: scaleX(1.5%);
+.descargar img{
+    width: 15%;
+    padding-right: 10px;
+}
+
+.descargar:hover{
+    transform: scale(120%);
+    transition: 0.2s;
 }
 
 /*footer */
