@@ -185,6 +185,30 @@ h2{
     padding: 5px;
 }
 
+/*boton */
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5%;
+}
+
+.descargar{
+    margin: 10px;
+    color: white;
+    font-size: 1.2vw;
+    padding: 10px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    text-decoration: none;
+    box-shadow: 0 0 100px rgb(255, 255, 255);
+}
+
+.descargar a:hover{
+    transform: scaleX(1.5%);
+}
+
 /*footer */
 footer {
     background-color: black;
